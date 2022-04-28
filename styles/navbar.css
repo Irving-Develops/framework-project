@@ -1,0 +1,49 @@
+.nav {
+    display: flex;
+    background-color: #000249;
+    color: rgb(255, 255, 255);
+
+}
+
+/* Links Styles */
+.navlinks {
+    display: flex;
+    padding: 20px 0 20px 40px;
+    padding-left: 40px;
+    flex: 3;
+    align-items: center;
+    gap: 10px;
+    text-transform: lowercase;
+}
+a.nav-link {
+    text-decoration: none;
+    color: white;
+}
+a.nav-link:hover {
+    color: #FF4949
+}
+
+/* Button Styles */
+.button-container{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.button-container > button {
+    color: #FF4949;
+    border: 1px solid #FF4949;
+    background-color: #000249;
+    box-shadow: 1px 1px 3px 3px #f3474765 ;
+}
+
+.button-container > button:hover {
+    background-color: #FF4949;
+    color: #000249;
+
+}
+img{
+    max-width: 300px;
+}
